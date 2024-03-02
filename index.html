@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetable Marketers Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <h1 class="greeting">PRASAD TOMATO's</h1>
+        <div class="container">
+            <h2>TOMATO ZONE</h2>
+            <form action="./tom.html" method="post" id="login-form">
+                <input type="text" name="username" placeholder="Username">
+                <input type="password" name="password" placeholder="Password">
+                <div class="buttons">
+                    <button id="sub" onclick="document.getElementById('login-form').submit();">LOGIN</button>
+                </div>
+            </form>
+            <div class="error-message"><!-- Error messages will appear here --></div>
+        </div>
+    </div>
+    <script src="./server.js"></script>
+</body>
+<style>
+    .buttons button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+</style>
+<style>
+    .greeting {
+    text-align: center;
+    font-size: 34px;
+    margin-top: 30px;
+color: beige;}
+    
+    
+    .container {
+        text-align: center;
+        align-items: center;
+    }
+
+    .buttons {
+        margin-top: 10px; /* Adjust margin as needed */
+    }
+
+    .buttons button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    .content
+    {
+        text-align: center;
+    }
+</style>
+
+
+</html>
